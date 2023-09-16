@@ -1,5 +1,5 @@
 {
-  "boards": [
+  "strategies": [
     {
       "id": 1,
       "title": "Platform Launch",
@@ -8,12 +8,12 @@
           "id": 1,
           "name": "Todo",
           "color": "#48C4E4",
-          "tasks": [
+          "subscriptions": [
             {
               "id": 1,
               "title": "Build UI for onboarding flow",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "id": 1,
                   "value": "Sign up page",
@@ -35,7 +35,7 @@
               "id": 2,
               "title": "Build UI for search",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Sign up page",
                   "isCompleted": false
@@ -54,7 +54,7 @@
               "id": 3,
               "title": "Build settings UI",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Account page",
                   "isCompleted": true
@@ -69,7 +69,7 @@
               "id": 4,
               "title": "QA and test all major user journeys",
               "description": "Once we feel version one is ready, we need to rigorously test it both internally and externally to identify any major gaps.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Internal testing",
                   "isCompleted": true
@@ -86,12 +86,12 @@
           "id": 2,
           "name": "Doing",
           "color": "#8471F2",
-          "tasks": [
+          "subscriptions": [
             {
               "id": 1,
               "title": "Design settings and search pages",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Settings - Account page",
                   "isCompleted": false
@@ -110,7 +110,7 @@
               "id": 2,
               "title": "Add account management endpoints",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Upgrade plan",
                   "isCompleted": false
@@ -129,7 +129,7 @@
               "id": 3,
               "title": "Design onboarding flow",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Sign up page",
                   "isCompleted": false
@@ -148,7 +148,7 @@
               "id": 3,
               "title": "Add search enpoints",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Add search endpoint",
                   "isCompleted": false
@@ -163,7 +163,7 @@
               "id": 4,
               "title": "Add authentication endpoints",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Define user model",
                   "isCompleted": false
@@ -177,8 +177,8 @@
             {
               "id": 5,
               "title": "Research pricing points of various competitors and trial different business models",
-              "description": "We know what we're planning to build for version one. Now we need to finalise the first pricing model we'll use. Keep iterating the subtasks until we have a coherent proposition.",
-              "subtasks": [
+              "description": "We know what we're planning to build for version one. Now we need to finalise the first pricing model we'll use. Keep iterating the charts until we have a coherent proposition.",
+              "charts": [
                 {
                   "value": "Research competitor pricing and business models",
                   "isCompleted": false
@@ -199,12 +199,12 @@
           "id": 3,
           "name": "Done",
           "color": "#66E3AE",
-          "tasks": [
+          "subscriptions": [
             {
               "id": 1,
               "title": "Conduct 5 wireframe tests",
               "description": "Ensure the layout continues to make sense and we have strong buy-in from potential users.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Complete 5 wireframe prototype tests",
                   "isCompleted": true
@@ -215,7 +215,7 @@
               "id": 2,
               "title": "Create wireframe prototype",
               "description": "Create a greyscale clickable wireframe prototype to test our asssumptions so far.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Create clickable wireframe prototype in Balsamiq",
                   "isCompleted": true
@@ -225,8 +225,8 @@
             {
               "id": 3,
               "title": "Review results of usability tests and iterate",
-              "description": "Keep iterating through the subtasks until we're clear on the core concepts for the app.",
-              "subtasks": [
+              "description": "Keep iterating through the charts until we're clear on the core concepts for the app.",
+              "charts": [
                 {
                   "value": "Meet to review notes from previous tests and plan changes",
                   "isCompleted": true
@@ -245,7 +245,7 @@
               "id": 4,
               "title": "Create paper prototypes and conduct 10 usability tests with potential customers",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Create paper prototypes for version one",
                   "isCompleted": true
@@ -260,7 +260,7 @@
               "id": 5,
               "title": "Market discovery",
               "description": "We need to define and refine our core product. Interviews will help us learn common pain points and help us define the strongest MVP.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Interview 10 prospective customers",
                   "isCompleted": true
@@ -271,7 +271,7 @@
               "id": 6,
               "title": "Competitor analysis",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Find direct and indirect competitors",
                   "isCompleted": true
@@ -286,7 +286,7 @@
               "id": 7,
               "title": "Research the market",
               "description": "We need to get a solid overview of the market to ensure we have up-to-date estimates of market size and demand.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Write up research analysis",
                   "isCompleted": true
@@ -309,12 +309,12 @@
           "id": 1,
           "name": "Todo",
           "color": "#48C4E4",
-          "tasks": [
+          "subscriptions": [
             {
               "id": 1,
               "title": "Plan Product Hunt launch",
               "description": "11",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Find hunter",
                   "isCompleted": false
@@ -345,7 +345,7 @@
               "id": 2,
               "title": "Share on Show HN",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Draft out HN post",
                   "isCompleted": false
@@ -364,7 +364,7 @@
               "id": 3,
               "title": "Write launch article to publish on multiple channels",
               "description": "",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Write article",
                   "isCompleted": false
@@ -389,13 +389,13 @@
           "id": 2,
           "name": "Doing",
           "color": "#66E3AE",
-          "tasks": []
+          "subscriptions": []
         },
         {
           "id": 3,
           "name": "Done",
           "color": "#8471F2",
-          "tasks": []
+          "subscriptions": []
         }
       ]
     },
@@ -407,12 +407,12 @@
           "id": 1,
           "name": "Now",
           "color": "#48C4E4",
-          "tasks": [
+          "subscriptions": [
             {
               "id": 1,
               "title": "Launch version one",
               "description": "11",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Launch privately to our waitlist",
                   "isCompleted": false
@@ -427,7 +427,7 @@
               "id": 2,
               "title": "Review early feedback and plan next steps for roadmap",
               "description": "Beyond the initial launch, we're keeping the initial roadmap completely empty. This meeting will help us plan out our next steps based on actual customer feedback.",
-              "subtasks": [
+              "charts": [
                 {
                   "value": "Interview 10 customers",
                   "isCompleted": false
@@ -448,13 +448,13 @@
           "id": 2,
           "name": "Next",
           "color": "#66E3AE",
-          "tasks": []
+          "subscriptions": []
         },
         {
           "id": 3,
           "name": "Later",
           "color": "#8471F2",
-          "tasks": []
+          "subscriptions": []
         }
       ]
     }
